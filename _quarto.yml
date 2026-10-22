@@ -1,0 +1,129 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*"
+    - "!LICENSE.md"
+    - "!docs/"
+
+website:
+  title: "Alaska Region Data Management Guide"
+  description: "General data management guidance and best practices for Alaska Region staff"
+#  announcement:
+#    content:  \"Edit this page\" link now directs to dev branch!
+#    icon: newspaper
+#    position: below-navbar
+#    type: danger
+    
+  favicon: ak-forum-icon_200-tr.png
+  reader-mode: true
+  page-navigation: true
+  repo-url: https://github.com/USFWS/ak-dm-guide
+  repo-branch: dev
+#  issue-url: Https://www.fws.gov
+
+  repo-actions: [edit]
+  other-links:
+    - text: Submit Feedback or suggest a change
+      icon: file-text
+      href: https://forms.office.com/g/RUbQcKxLpQ
+
+  page-footer:
+    center: 
+      - text: "DM Contacts"
+        href: https://doimspp.sharepoint.com/sites/fws-FF07S00000-data/SitePages/Contacts.aspx
+      - text: "License"
+        href: license.md
+    right:
+      - text: "Page updated: {{< meta date >}}"
+    left:
+      - text: "Suggested citation: Alaska Data Stewardship Team. Alaska Region Data Management Guide. U.S. Fish and Wildlife Service, Alaska Region. https://doi.org/10.7944/p9jf0rt6"
+
+ 
+  
+  search:
+    location: sidebar
+    type: textbox
+
+  sidebar:
+    style: docked
+    background: light
+    collapse-level: 1
+#    contents: auto
+    contents:    
+      - index.md
+      - auto: background
+      - auto: fundamental-activities
+      - auto: alaska-data-management-101
+      - auto: planning
+      - auto: acquire
+      - auto: maintain
+      - auto: share
+      - auto: storage-options
+      - auto: appendix
+      - text: "---"
+      - section: "Site Maintenance"
+      - CONTRIBUTING.md
+      - CHANGELOG.md
+    
+#      - section: "section 1"
+#        contents: "index.md"
+#          - href: "alaska-data-management-101"
+       
+#      - section: "Section 2"
+#        contents: auto
+     
+#      contents:
+#        - text: Plan
+#          href: "planning"
+       
+# --- This recursively renders all documents
+#       - section: "Acquire"
+#        contents:
+#          - auto: "acquire"
+#      - text: "---"
+#      - section: "Maintain"
+#        contents: maintain
+#     
+#      - section: "Access & Share"
+
+  navbar:
+    right:
+      - icon: person-arms-up
+        text: Contact
+        href: https://doimspp.sharepoint.com/sites/fws-FF07S00000-data/SitePages/Contacts.aspx
+        
+      - icon: file-diff
+        href: https://github.com/hmaier-fws/ak-dm-guide/commits/test-pages/
+        text: Recent Changes
+        
+      - href: https://ak-region-dst.gitbook.io/alaska-region-interim-data-management-user-guide
+        text: Old Site
+        icon: book
+
+format:
+  html:
+#    theme: cerulean
+#    smooth-scroll: true
+    theme: default
+    css: styles.css
+    code-block-bg: "000000"
+    code-block-border-left: "ffffff"
+    link-external-newwindow: true
+    date: last-modified
+    date-format: iso
+    anchor-sections: true
+    toc: true
+    toc-title: On this page
+#    number-sections: true
+#
+#    other-links:
+#      - text: Submit an issue
+#        icon: github
+#        href: https://github.com/hmaier-fws/ak-dm-userguide
+
+# quarto preview --log log.txt --log-level info
+# quarto preview source-files --log log.txt --log-level debug
+
+#  latex:
+#    toc: true

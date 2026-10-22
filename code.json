@@ -1,0 +1,70 @@
+{
+  "version": "0.0.1",
+  "measurementType": {
+    "method": "other",
+    "ifOther": "This is not a valid CODE.json file. It only intended to provide a single releases object for a single project."
+  },
+  "agency": "DOI",
+  "releases": [
+    {
+      "name": "Alaska Region Metadata Guide",
+      "version": "0.0.1",
+      "organization": "U.S. Fish and Wildlife Service",
+      "description": "Source code for rendering the Alaska Region Metadata Guide.",
+      "permissions": {
+        "licenses": [
+          {
+            "name": "Creative Commons Zero v1.0 Universal",
+            "URL": "https://creativecommons.org/publicdomain/zero/1.0/"
+          }
+        ],
+        "usageType": "openSource",
+        "exemptionText": null
+      },
+      "tags": [
+        "fws",
+        "usfws",
+        "quarto",
+        "data management",
+        "manual",
+        "user guide",
+        "metadata"
+      ],
+      "contact": {
+        "email": "Hilmar.Maier@fws.gov",
+        "name": "Hilmar Maier",
+        "URL": "https://orcid.org/0000-0002-8442-0701",
+        "phone": ""
+      },
+      "status": "Production",
+      "vcs": "git",
+      "repositoryURL": "https://github.com/USFWS/ak-metadata-guide",
+      "homepageURl": "",
+      "downloadURL": "",
+      "disclaimerURL": "",
+      "disclaimerText": "",
+      "languages": ["markdown", "html", "javascript"],
+      "laborHours": 100,
+      "relatedCode": [
+        "name" : "",
+        "URL": "",
+        "isGovernmentRepo": false
+      ],
+      "reusedCode": [
+        {
+          "name": "Alaska Region Interim Metadata Guide",
+          "URL": "https://ak-region-dst.gitbook.io/alaska-region-mdeditor-interim-user-guide"
+        },
+        {
+          "name": "Quarto",
+          "URL": "https://quarto.org/"
+        }
+      ],
+      "date": {
+        "created": "2026-10-22",
+        "lastModified": "2026-10-22",
+        "metadataLastUpdated": "2026-10-22"
+      }
+    }
+  ]
+}
