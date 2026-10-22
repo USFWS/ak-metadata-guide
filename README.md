@@ -1,47 +1,27 @@
----
-description: preface
----
+# Alaska Region Metadata Guide source files
 
-# Alaska Region Interim Metadata Guide
+The current production version of this user guide can be found at https://usfws.github.io/ak-metadata-guide (https://doi.org/10.7944/P9S972WM)
 
-Alaska Region Data Stewardship Team&#x20;
+This directory contains the source data for the [Alaska Region Metadata Guide](https://doi.org/10.7944/P9S972WM). The site is rendered by the `quarto render` command with the compiled HTML being written to the **docs** directory. After merging a branch (e.g., dev) into the main branch, the contents of the **docs** directory will be rendered by GitHub pages.
 
-V.2&#x20;
+## readme.md files
 
-_Note: This is a working draft that will continue to be edited. **Last updated: 15 March 2022**. Please refresh this manual every time you open it to ensure you are viewing the most recent version._
+The default behavior of [Quarto](https://quarto.org) is to [not render readme.md files](https://quarto.org/docs/websites/#render-targets). We can change that, but I am inclined to retain that function, allowing us to maintain developer documentation within the file structure.
 
-### Introduction
+For example, **this file** (readme.md) is not rendered as part of the user guide, but the **index.md** file is!
 
-This manual describes the **INTERIM** requirements and best practices for the creation of quality, discovery level metadata records for projects and products from the Alaska Region (AK-Region) of the US Fish and Wildlife Service (USFWS). These metadata requirements conform to the metadata standards agreed upon by the Alaska Region Data Stewardship Team (DST). This metadata ensures that AK-Region projects and products are **documented, secure, discoverable, accessible, and timely,.**
+# Contents
 
-The Alaska Region of the U.S. Fish and Wildlife Service is committed to improving the management of its data resources. A comprehensive, long-term plan to develop and implement a Regional Data Management System (RDMS) began in the spring of 2020, with the expectation that it will be fully operational and in use in 3-5 years.  In the interim, there is a strong desire in the Region to manage existing and new data resources with the systems available to staff now. This manual will be continually revised.
+This directory contains several files that control the rendering of the website. The following files should not be edited:
 
-### Metadata and mdEditor
+## .quarto (directory)
 
-The mdEditor application is a metadata editing tool originally created to support the metadata requirements for USFWS Landscape Conservation Cooperatives as an extension of an initiative by the Alaska Data Integration Working Group ([ADIwg](https://adiwg.gitbooks.io/mdeditor/content/GLOSSARY.html#adiwg)). This tool was adopted by the AK-Region Regional Directorate Team, on the recommendation of the DST, to support the AK-Region's goal of improving data management.
+Some Quarto stuff. Don't really know what's in here. The file will only be generated locally and not pushed to the repository (included in .gitignore)
 
-**This manual refers to the creation of AK-Region metadata, specifically with the mdEditor tool.** If you want information on the creation of other metadata records using mdEditor, or more information in general, please refer to the [mdEditor User Manual](https://guide.mdeditor.org).
+## .nojekyll
 
-### Enterprise USFWS Data Management Integration
+Prevents the default rendering of GitHub pages using [Jekyll](https://jekyllrb.com/)
 
-Metadata creation is part of the Maintain step of the [Data Management Lifecycle](https://doimspp.sharepoint.com/sites/fws-data/SitePages/Data\_management\_life\_cycle\_home.aspx).   Guidance is also available in the [USFWS data management handbook.](https://doimspp.sharepoint.com/sites/fws-data/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2Ffws%2Ddata%2FShared%20Documents%2FDataManagementHandbook%2Epdf\&parent=%2Fsites%2Ffws%2Ddata%2FShared%20Documents)
+## _quarto.yml
 
-### Who Should Use this Manual
-
-This guide is for anyone creating or updating metadata for AK-Region projects and products.&#x20;
-
-The metadata requirements described here apply to science projects and products that were conducted or funded by the Fisheries and Ecological Services (FES), Migratory Bird Management (MBM), National Wildlife Refuge System (NWRS), Office of Subsistence Management (OSM) or Science Applications (SA) programs of the Alaska Region. The primary purpose is to document items that are stored in project archive folders maintained in the [Regional Data Repository](alaska-region-tools/ak-region-data-repository.md).
-
-### How to Use this Manual
-
-Directly accessing this manual from the internet is the recommended way to use this manual. By doing so, you will guarantee that you are using the current version since it is a live document and any updates can be made instantly. The online version will also have the best functionality and graphical display.
-
-{% hint style="info" %}
-Some of the stylized text boxes (like this one) will not translate to the PDF exactly. The text will still be outlined with a background color, but the icon to the left of the text will not display in the PDF.
-{% endhint %}
-
-### Disclaimer
-
-mdEditor is also undergoing constant development. Due to this, there may be minor discrepancies between screenshots in the manual and the current production version of mdEditor.
-
-<img src=".gitbook/assets/image (6).png" alt="" data-size="line">
+Site-wide configuration parameters for [Quarto](https://quarto.org)
