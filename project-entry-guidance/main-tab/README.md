@@ -26,13 +26,13 @@ The **Status** drop-down menu allows you to select the status of your project. C
 This refers to the condition of your project.  This is NOT the same as your metadata status.&#x20;
 {% endhint %}
 
-![](../../.gitbook/assets/ProjectMainBasicInformation.PNG)
+![](..//assets/ProjectMainBasicInformation.PNG)
 
 ## Default Locale (Required, Auto-generated) <a href="#default-locale" id="default-locale"></a>
 
 **Default Locale** allows for the selection of **Language**, **Character Set**, and **Country**. English, UTF-8, and USA will be selected by default, but you may change them if necessary. See [Settings](https://app.gitbook.com/s/-MW-Wv1z7-vUYrz5cHwE/settings) for instruction.
 
-![Example of default locale](<../../.gitbook/assets/image (33).png>)
+![Example of default locale](<..//assets/image (33).png>)
 
 ## Resource Type (Required) <a href="#resource-types" id="resource-types"></a>
 
@@ -42,7 +42,7 @@ The Resource Type should be automatically filled in with the resource type you s
 If the project has a Regional Data Repository folder, a best practice is to use the same shortened project name as that used for the Regional Data Repository.
 {% endhint %}
 
-![Example of resource type](../../.gitbook/assets/resource\_types.png)
+![Example of resource type](..//assets/resource\_types.png)
 
 ## Point of Contacts (Required) <a href="#point-of-contacts" id="point-of-contacts"></a>
 
@@ -72,7 +72,7 @@ In cases where project include external investigators, use 'coPrincipalInvestiga
 In cases where the lead PI is the not also the Project Manager, use PI for the 'principalInvestigator' and 'pointOfContact' for the Project Manager.
 {% endhint %}
 
-![Example Point of Contact entries for a project](<../../.gitbook/assets/image (70).png>)
+![Example Point of Contact entries for a project](<..//assets/image (70).png>)
 
 **NOTE:**  **Migratory Bird Management** should also include the subprogram as an administrator contact.  These options include: Migratory Birds and State Programs, Eagle Raptor Management Program, Shorebird Program, Waterfowl Program, Seabirds Program, and Land Bird Program.
 
@@ -124,7 +124,7 @@ Projects maybe assigned a[ Digital Object Identifier](broken-reference) (DOI) an
 **Best Practice**: Internal project tracking codes such as a PRIMR code may be entered as an identifier.  In the case where the namespace is absent from the dropdown options in mdEditor, manually enter the namespace.  This will be the case for PRIMR project codes.
 {% endhint %}
 
-![](<../../.gitbook/assets/image (16).png>)
+![](<..//assets/image (16).png>)
 
 ## Description <a href="#description" id="description"></a>
 
@@ -150,7 +150,7 @@ Enter comments, if desired.
 
 **Time Period** refers to project start and end date. This set of dates is distinct from the fiscal year of funding. The start date indicates the overall project start.  Ongoing projects may not have end dates.  'End date' should be added when the project is completed.  This exact calendar date associated with the date type may vary from the date of a proposal to the date that funding was approved, or date that the project work began.
 
-![Example Project Start and End Dates entry in mdEditor](<../../.gitbook/assets/main-time-period (1).PNG>)
+![Example Project Start and End Dates entry in mdEditor](<..//assets/main-time-period (1).PNG>)
 
 ### Maintenance
 

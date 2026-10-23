@@ -2,7 +2,7 @@
 description: preface
 ---
 
-# Alaska Region Interim Metadata Guide
+# Alaska Region Metadata Guide
 
 Alaska Region Data Stewardship Team&#x20;
 
@@ -43,5 +43,3 @@ Some of the stylized text boxes (like this one) will not translate to the PDF ex
 ### Disclaimer
 
 mdEditor is also undergoing constant development. Due to this, there may be minor discrepancies between screenshots in the manual and the current production version of mdEditor.
-
-<img src=".gitbook/assets/image (6).png" alt="" data-size="line">

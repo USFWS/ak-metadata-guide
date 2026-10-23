@@ -2,7 +2,7 @@
 
 The **Copy** button is located in the mdEditor action menu on the right-hand side of the screen when viewing the summary screen of the record. The Copy Button allows you to make a duplicate of an existing metadata record.
 
-![](../../.gitbook/assets/CopyArrow.png)
+![](..//assets/CopyArrow.png)
 
 **Making a copy of a record can be used to**:
 

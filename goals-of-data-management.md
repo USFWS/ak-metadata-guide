@@ -48,4 +48,4 @@ You're already on your way to helping improve the Service's data management by u
 
 See the [FWS Data Management SharePoint Page](https://doimspp.sharepoint.com/sites/fws-data/SitePages/DM101.aspx) for more.
 
-<img src=".gitbook/assets/image (46).png" alt="" data-size="line">
+<img src="/assets/image (46).png" alt="" data-size="line">

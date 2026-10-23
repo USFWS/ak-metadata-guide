@@ -27,7 +27,7 @@ JSON = JavaScript Object Notation, an open source file format. mdEditor produces
 
 The Alaska Regional Data Repository houses mdEditor..json files created from using Export All or Export Selected.
 
-![](<../../.gitbook/assets/image (22).png>)
+![](<..//assets/image (22).png>)
 
 **Plain mdJSON,** which are produced by using Export mdJSON, are files that may be translated into other metadata standards or published externally. These files do not contain the extra information used by mdEditor.
 
@@ -37,7 +37,7 @@ The Alaska Regional Data Repository houses mdEditor..json files created from usi
 Typically, we will not be using the Export mdJSON function when building the metadata file for the archive folder.
 {% endhint %}
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<..//assets/image (2).png>)
 
 ## mdEditor File Management Strategies
 
@@ -74,4 +74,4 @@ Maintain an “Export All” JSON file each time you finish a work session in md
 
 It is particularly important that you export your records for backup before using mdEditor's **Clear Storage Cache** functionality (clearing the storage cache will delete any records or data you have entered in mdEditor). Exporting ensures that your data is secure even after clearing the storage cache. Not exporting your data before clearing your cache will result in a permanent loss of records. Consult the [Settings](broken-reference) section of this manual to learn more.
 
-<img src="../../.gitbook/assets/image (8).png" alt="" data-size="line">
+<img src="..//assets/image (8).png" alt="" data-size="line">

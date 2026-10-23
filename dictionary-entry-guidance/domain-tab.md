@@ -18,7 +18,7 @@ Provide the variable name in the relevant dataset and the same Code Name as the 
 
 Add a brief description, including any sources used in creating the domain items. This may be the same as the Definition of the associated attribute.
 
-![](<../.gitbook/assets/image (28).png>)
+![](</assets/image (28).png>)
 
 ## Domain Items
 
@@ -36,4 +36,4 @@ Provide the the domain item value (permissible entry value in the table).
 
 Briefly describe the domain item value.
 
-![](<../.gitbook/assets/image (34).png>)
+![](</assets/image (34).png>)

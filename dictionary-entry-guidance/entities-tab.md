@@ -26,7 +26,7 @@ A conversational name for the Entity.
 
 Self-populated from the main tab.
 
-![](<../.gitbook/assets/image (29).png>)
+![](</assets/image (29).png>)
 
 ## Attributes (Required)
 
@@ -39,13 +39,13 @@ Complete the following (required) information for each attribute:
 * Add a **Definition** for the attribute. These should be informative enough for someone to interpret variables in the relevant datasets.
 * Select **Allow Null** to indicate whether null values are allowed for the attribute. If the checkbox is selected, the attribute can be left empty; if the checkbox is unselected, a value for the attribute is required.&#x20;
 
-![](<../.gitbook/assets/image (61).png>)
+![](</assets/image (61).png>)
 
 ### **Attribute Information**
 
 Select the **More** button next to each attribute to open the attributes editing window. If applicable, associate domains with attributes using the **Domain** drop down. The other fields are optional, but are recommended if they are informative for data users. Refer to the [mdJSON Data Dictionary](https://mdbook.adiwg.org/appendix/mdjson\_data\_dictionary.html) for more information on these fields.
 
-![](<../.gitbook/assets/image (75).png>)
+![](</assets/image (75).png>)
 
 ## Generate Entity from CSV
 
@@ -68,5 +68,5 @@ In general, attributes with coded terms will have a defined domain (e.g. the dom
 
 When you have finished, click the **Do Import** button to commit the new Entity, Attributes, and any Domains to the Dictionary Record.
 
-![](<../.gitbook/assets/image (80).png>)
+![](</assets/image (80).png>)
 

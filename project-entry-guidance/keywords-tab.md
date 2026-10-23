@@ -25,7 +25,7 @@ FDGC provides guidance on [geospatial metadata standards](https://www.fgdc.gov/m
 'Biota' and 'environment' are probably the best fit for most FWS projects.
 {% endhint %}
 
-![Example GCMD Science keywords and ISO topic keywords entry](<../.gitbook/assets/image (57).png>)
+![Example GCMD Science keywords and ISO topic keywords entry](</assets/image (57).png>)
 
 ## Custom Thesaurus
 

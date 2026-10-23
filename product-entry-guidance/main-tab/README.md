@@ -26,13 +26,13 @@ Enter a concise, yet informative title. Good titles, when they appear in a searc
 
 The **Status** drop-down menu allows you to select the status of your project. Choose status ONLY from the four following options: _completed, ongoing, proposed, or accepted._
 
-![](../../.gitbook/assets/ProjectMainBasicInformation.PNG)
+![](..//assets/ProjectMainBasicInformation.PNG)
 
 ## Default Locale (Required, auto-generated)
 
 **Default Locale** allows for the selection of **Language**, **Character Set**, and **Country**. English, UTF-8, and USA will be selected by default, but you may change them if necessary. See [Settings](https://app.gitbook.com/s/-MW-Wv1z7-vUYrz5cHwE/settings) for instruction.
 
-![](<../../.gitbook/assets/image (50).png>)
+![](<..//assets/image (50).png>)
 
 ## Resource Types <a href="#resource-types-required" id="resource-types-required"></a>
 
@@ -74,7 +74,7 @@ Only the first entry in the list of Responsible Parties (#0) will appear in data
 In case where the project includes external investigators, use 'coPrincipalInvestigator' for these contacts.
 {% endhint %}
 
-![Example Point of Contact entries for a project](<../../.gitbook/assets/image (67).png>)
+![Example Point of Contact entries for a project](<..//assets/image (67).png>)
 
 **NOTE:**  **Migratory Bird Management** can also include the subprogram as an administrator contact.  These options include: Migratory Birds and State Programs, Eagle Raptor Management Program, Shorebird Program, Waterfowl Program, Seabirds Program, and Land Bird Program.
 
@@ -151,7 +151,7 @@ Enter comments, if desired.
 
 **Time Period** refers to project start and end date. This set of dates is distinct from the fiscal year of funding. The start date indicates the overall project start.  Ongoing projects may not have end dates.  'End date' should be added when the project is completed.  This exact calendar date associated with the date type may vary from the date of a proposal to the date that funding was approved, or date that the project work began.
 
-![Example Time Period entry in mdEditor](<../../.gitbook/assets/main-time-period (2).PNG>)
+![Example Time Period entry in mdEditor](<..//assets/main-time-period (2).PNG>)
 
 ### Maintenance
 

@@ -14,7 +14,7 @@ Associations can only be made after both project and product records have been c
 
 **Step 2**: Click the "**Select a Record"** button to select an associated project.&#x20;
 
-![](<../.gitbook/assets/select\_a\_record\_button (1).png>)
+![](</assets/select\_a\_record\_button (1).png>)
 
 **Step 3**: Choose the project that you would like to associate from the **Select a Resource** list.
 

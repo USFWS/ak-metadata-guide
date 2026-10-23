@@ -43,4 +43,4 @@ Contact types are specified in the contact record (examples: federal, state, NGO
 Consult either the [Associating Records: Product](broken-reference) or [Associating Records: Project](broken-reference) section for more information).
 {% endhint %}
 
-<img src="../../.gitbook/assets/image (74).png" alt="" data-size="line">
+<img src="..//assets/image (74).png" alt="" data-size="line">

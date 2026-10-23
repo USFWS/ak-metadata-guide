@@ -16,7 +16,7 @@ After creating your project record initially and before you begin adding metadat
 
 After creating your project record and before you begin adding metadata, select **Project** from the **Profile** drop-down in the main menu. This will limit the number of tabs listed along the top of the screen, only showing tabs that contain fields that are applicable to project metadata.&#x20;
 
-![](../.gitbook/assets/ProjectProfileArrow.PNG)
+![](/assets/ProjectProfileArrow.PNG)
 
 {% hint style="danger" %}
 Having duplicate copies of the same contact is not desirable. It can create confusion as you edit and manage your metadata records and introduce unnecessary errors.

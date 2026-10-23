@@ -14,13 +14,13 @@ An extent may be simply a text description or may be a simplified geographic rep
 
 First, open the **Extent** tab.
 
-![Extent Tab](<../.gitbook/assets/image (60).png>)
+![Extent Tab](</assets/image (60).png>)
 
 Click on the **Add Extent** button to open and extent editing window.  The extent description box can be used to enter a simple text description.
 
 To add a geographic extent, click the **Add Features** button opens a geographic extent editing window.  You can import features (option 1 below) or draw features (option 2 below) to represent the spatial extent of the project.  These feature extents can be re-used for other records using the **Export Features** button.
 
-![](<../.gitbook/assets/image (76).png>)
+![](</assets/image (76).png>)
 
 {% hint style="warning" %}
 Extents are limited to 5000 vertices.  Extent need only to be accurate enough for searching and discovery purposes.  They are metadata, and not a dataset.  A high-definition shapefile of a geographic area is a dataset.
@@ -34,19 +34,19 @@ Spatial features such as geoJSON, shapefiles, and kml files, in latitude and lon
 Imported file coordinates must be geographic coordinates i.e. latitude and longitude, not projected coordinates.
 {% endhint %}
 
-![Drag and Drop or click Import Features button are both options to upload extent files in mdEditor.](<../.gitbook/assets/image (31).png>)
+![Drag and Drop or click Import Features button are both options to upload extent files in mdEditor.](</assets/image (31).png>)
 
 #### Option 2: Draw Spatial Features
 
 The geographic extent editing window map interface includes function buttons to draw a line, polygon, square, or a point.  These buttons are located along the left side of the map view.  Choose the shape button desired and click a starting point on the map to begin.  For polygons, click the **Finish** button to close the polygon.
 
-![](<../.gitbook/assets/image (64).png>)
+![](</assets/image (64).png>)
 
 #### Calculate a Bounding Box
 
 Once a geographic extent is present, simply click on the calculate button under the Bounding Box coordinates in the Edit Extent window.  This will populate the bounding box coordinates.&#x20;
 
-![Example Geographic Extent entry and bounding box for the State of Alaska](<../.gitbook/assets/image (32).png>)
+![Example Geographic Extent entry and bounding box for the State of Alaska](</assets/image (32).png>)
 
 {% hint style="danger" %}
 Bounding boxes will not work across the dateline, but you can have more than one extent per project. If your project area crosses the dateline, split the area into multiple extents and create separate bounding boxes.
@@ -56,4 +56,4 @@ Bounding boxes will not work across the dateline, but you can have more than one
 
 Extent features may be exported as JSON files with the **Export Features** button.
 
-![Open Extent editor window; note the Import and Export Features buttons in the right margin.](<../.gitbook/assets/image (59).png>)
+![Open Extent editor window; note the Import and Export Features buttons in the right margin.](</assets/image (59).png>)

@@ -25,6 +25,6 @@ _The following fields are available for **Organization Contacts:**_
 If you upload a logo to your contact record, you must include a filename for the logo. Otherwise, an error will occur n the metadata records that include that contact.
 {% endhint %}
 
-![Example organization contact with excellent metadata!](<../.gitbook/assets/image (40).png>)
+![Example organization contact with excellent metadata!](</assets/image (40).png>)
 
 For more information, consult the [**Organization Contacts**](https://adiwg.gitbooks.io/mdeditor/content/contact/new/organization.html) **** section of the mdEditor manual.

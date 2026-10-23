@@ -6,7 +6,7 @@ DOIs, or digital object identifiers, are alphanumeric strings used to identify d
 
 DOIs have a standardized structure with a prefix and suffix separated by a slash (/). The prefix usually takes the form 10.NNNN, where NNNN represents any four-digit number greater than or equal to 1000. The DOI’s suffix is a alphanumeric string that identifies a single object.
 
-![](<../.gitbook/assets/image (68).png>)
+![](</assets/image (68).png>)
 
 
 

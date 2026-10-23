@@ -34,6 +34,6 @@ The **** [**mdJSONdictio R package**](https://hdvincelette.github.io/mdJSONdicti
 4. Associate the dictionary with applicable product(s) in the Product Dictionaries Tab
 5. Save your work.
 
-![Click the plus sign to create a new record ](<../.gitbook/assets/CreateNewDictionary (1).png>)
+![Click the plus sign to create a new record ](</assets/CreateNewDictionary (1).png>)
 
 ##

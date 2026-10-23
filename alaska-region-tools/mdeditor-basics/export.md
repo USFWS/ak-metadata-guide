@@ -24,7 +24,7 @@ mdJSON files can be uploaded and translated to other formats via the mdTranslato
 
 While exporting data, there are four options available (on the right side of the export data window).
 
-![](<../../.gitbook/assets/export\_data\_action\_menu (1).png>)
+![](<..//assets/export\_data\_action\_menu (1).png>)
 
 * **Export All**: will export everything currently loaded in mdEditor into a single file. Exports an mdEditor JSON file.
 * **Export Selected**: will only export the items you have selected (so individual records, contacts, etc.). If nothing is selected it will be disabled (i.e., grayed out). This also exports an mdEditor JSON file.

@@ -16,7 +16,7 @@ Because mdJSON metadata is based on the ISO (International Organization for Stan
 2. Add keywords from the following pre-populated thesauruses.
 3. If none of the keywords in the following categories are sufficient for tagging your record, you can create a custom thesaurus (see below for more information).
 
-![Example ISO Keyword entry](<../.gitbook/assets/image (55).png>)
+![Example ISO Keyword entry](</assets/image (55).png>)
 
 
 

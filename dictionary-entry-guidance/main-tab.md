@@ -50,4 +50,4 @@ Adding a point of contact (responsible party) gives users information on who to 
 To add contacts to a metadata record, you must first upload the contacts into mdEditor. See the [Contact](../contact-entry-guidance/) Section for more information.
 {% endhint %}
 
-![](<../.gitbook/assets/image (20).png>)
+![](</assets/image (20).png>)

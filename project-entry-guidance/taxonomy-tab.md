@@ -26,11 +26,11 @@ To some extent, this is up to the best judgement of the metadata author. You wil
 
 (1) Click "Add Collection"
 
-![](../.gitbook/assets/AddCollection.PNG)
+![](/assets/AddCollection.PNG)
 
 (2) From here, you can click "Add Taxa from ITIS" (from the right) directly without needing to choose the taxonomic system. This will be filled in for you automatically once you have added items from ITIS.
 
-![](<../.gitbook/assets/image (19).png>)
+![](</assets/image (19).png>)
 
 (3) Enter your search terms in the search box. You can type in a common name, scientific name, or TSN (Taxonomic Serial Number) assigned by ITIS. You can type in any level of taxonomy, not just species name (e.g., you can type in an order or class or genus). You can specify by Kingdom, if you like.
 
@@ -42,7 +42,7 @@ If you haven’t used the search in a while (or ever) the ITIS API service might
 The status of the taxonomic classification is denoted in parentheses() after the TSN. ITIS may consider a classification "invalid" if the species was reclassified, for example. It is up to you whether you want to add invalid ITIS classifications to your metadata.
 {% endhint %}
 
-![](../.gitbook/assets/taxonomy\_search\_redleggedfrog.PNG)
+![](/assets/taxonomy\_search\_redleggedfrog.PNG)
 
 
 
@@ -52,7 +52,7 @@ The status of the taxonomic classification is denoted in parentheses() after the
 &#x20;mdEditor will not to create duplicate entries of the same taxa if the same species is accidentally imported multiple times.
 {% endhint %}
 
-![](<../.gitbook/assets/taxonomy\_successfulimport (1).PNG>)
+![](</assets/taxonomy\_successfulimport (1).PNG>)
 
 5\) Click "Back to Collection." You will see that it has added a taxonomic hierarchy and a Title to Taxonomic System (if you hadn’t already added one by hand). This completes the minimum requirements for taxonomy.
 
@@ -60,7 +60,7 @@ The status of the taxonomic classification is denoted in parentheses() after the
 You can click on any level of the taxonomic hierarchy to collapse the entries below that level.
 {% endhint %}
 
-![](<../.gitbook/assets/taxonomy\_collection (1).PNG>)
+![](</assets/taxonomy\_collection (1).PNG>)
 
 (6) You can add additional information regarding the taxonomic information, if desired.
 
@@ -74,6 +74,6 @@ You can click on any level of the taxonomic hierarchy to collapse the entries be
 
 **Voucher** would be filling in with information about specimens you submitted to a museum or a storage facility where specimens are stored.  The museum or storage facility should be entered as a Contact. (See Contact Entry Guidance).
 
-![Classification Blank entry boxes for general scope, identification procedure and completeness](<../.gitbook/assets/image (53).png>)
+![Classification Blank entry boxes for general scope, identification procedure and completeness](</assets/image (53).png>)
 
-![Example voucher entry](<../.gitbook/assets/image (24).png>)
+![Example voucher entry](</assets/image (24).png>)

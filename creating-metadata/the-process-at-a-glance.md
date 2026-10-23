@@ -16,7 +16,7 @@ The direct link to mdEditor is [https://go.mdeditor.org](https://go.mdeditor.org
 
 The first time you open mdEditor, check your settings. Consider changing the AutoSave to ON. The AutoSave option will write all changes to local storage as soon as you exit a data entry field. Changes must be manually saved if the Auto-Save feature is turned off. AutoSave allows you to save less frequently, but it makes it harder to undo your changes. Once you leave the record, the record is saved and changes can no longer be cancelled.
 
-![](../.gitbook/assets/SettingsArrow.png)
+![](/assets/SettingsArrow.png)
 
 ## Step 3: (If necessary) import the metadata file from your project's archive folder
 
@@ -64,4 +64,4 @@ This metadata file will be moved from your incoming folder to the metadata folde
 
 The Data Custodian may ask you to revise the metadata and you would import the metadata from the incoming folder to continue working on it (see Step 4). When the metadata file is approved, the Data Custodian will move the metadata file and associated products from the incoming folder and into the appropriate location(s) in the archive folder.
 
-<img src="../.gitbook/assets/image (79).png" alt="" data-size="line">
+<img src="/assets/image (79).png" alt="" data-size="line">

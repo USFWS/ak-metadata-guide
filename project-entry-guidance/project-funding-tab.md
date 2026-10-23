@@ -40,7 +40,7 @@ You may add the Principal Investigator with the "principalInvestigator" role to 
 
 In some cases, funds are marked for specific activities and include reporting requirements that accompany the funding allocations.  For example, EPA allocates Great Lakes Restoration Initiative (GLRI) funds on behalf of Congress to FWS, among others.  FWS then distributes the funds across programs for use. Oil spill restoration funds are a similar case. This funding flow can be tracked and aggregated within Other Contacts listed in an allocation.  Add an organization as the contact and add "_funder_" as the role in Other Contacts.
 
-![Example funding allocation entry with sub-activity information in the comments](<../.gitbook/assets/image (56).png>)
+![Example funding allocation entry with sub-activity information in the comments](</assets/image (56).png>)
 
 
 
@@ -62,4 +62,4 @@ For each allocation, enter the fiscal year that funds were awarded (not the time
 Use the “Pick a Fiscal Year” dropdown to autofill the date fields.
 {% endhint %}
 
-![Example of multiple year project funding allocations](<../.gitbook/assets/image (11).png>)
+![Example of multiple year project funding allocations](</assets/image (11).png>)
