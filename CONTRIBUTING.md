@@ -4,7 +4,7 @@ title: "How to contribute"
 
 # Install [Quarto](https://quarto.org/)
 
-The install should update your path and Quarto to run from any command terminal. Details about installiung and running Quarto can be found on the [Quarto Get Started page](https://quarto.org/docs/get-started/).
+The install should update your path to allow Quarto to be run from any command terminal. Details about installiung and running Quarto can be found on the [Quarto Get Started page](https://quarto.org/docs/get-started/).
 
 Change to the project directory (if using GitHub Desktop, select "Repository - Open in Command prompt", or `Ctrl+\`)
 
@@ -16,7 +16,15 @@ The site may need to be re-built (run "Quarto render") after edits are complete.
 
 ## Publishing site
 
-Quarto provides [several methods](https://quarto.org/docs/publishing/) to publish a website. The Alaska Region Metadata Guide [GitHub repositoty](https://github.com/USFWS/ak-metadata-guide) is configured to ignore the `/docs` directory. The site is deployed the **gh-pages branch** using the Quarto [publish command](https://quarto.org/docs/publishing/github-pages.html#publish-command). (Attempting to render GitHub pages from the `/docs` directory often results in numerous conflicts if the site is edited my multiple individuals.)
+Quarto provides [several methods](https://quarto.org/docs/publishing/) to publish a website. The Alaska Region Metadata Guide [GitHub repositoty](https://github.com/USFWS/ak-metadata-guide) is configured to ignore the `/docs` directory. The site is deployed to the **gh-pages branch** using the Quarto [publish command](https://quarto.org/docs/publishing/github-pages.html#publish-command). Rendering the GitHub pages from the `/docs` directory often results in numerous conflicts if the site is edited my multiple individuals.
+
+A site can be published as follows:
+
+1) Go to the project directory and start Quarto
+2) If using Git to manage site updates, switch to the branch you wish to publish
+3) Run the command: `quarto publish gh-pages`
+4) The current branch will be rendered and deployed to the `gh-pages` branch of the current repository.
+
 
 
 # Style guide

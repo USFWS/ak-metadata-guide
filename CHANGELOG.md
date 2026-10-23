@@ -6,6 +6,8 @@ Updates made to the Alaska Region Metadata Guide
 
 ### 20261023
 
+
+
 - Restructure site organization for Quarto
 - Re-create original table of contents
 - Created:
@@ -13,10 +15,12 @@ Updates made to the Alaska Region Metadata Guide
   - /assets directory
   - /assets/source directory
 
+
 - Updated files:
   - _quarto.yml 
   - .gitignore
   - index.md
+
 
 - Moved contents from /.gitbook/assets/ to /assets/
 - Deleted /.gitbook directory
@@ -37,10 +41,11 @@ Updates made to the Alaska Region Metadata Guide
   - original GitBook "README.md" to "index.md"
 
 
-"original-GitBook" was initially created by pushing from the original GitBook source using command:
-  - `git push https://github.com/USFWS/ak-metadata-guide gitbook-main:original-GitBook`
+The "original-GitBook" branch was initially created by pushing from the original GitBook source repository using the command:
 
-The branch was then force pushed to the new "dev" branch
+`git push https://github.com/USFWS/ak-metadata-guide gitbook-main:original-GitBook`
+
+The branch was then force pushed to the new "dev" branch.
 
 
 ## 20261022 - v0.0.1
