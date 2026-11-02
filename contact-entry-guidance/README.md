@@ -35,12 +35,10 @@ To load a master contact file into mdEditor, simply click Import tab, access the
 
 ![Import screen in mdEditor](</assets/image (14).png>)
 
-{% hint style="warning" %}
+::: {.callout-warning}
 If you load a Master Contacts file and see that there is no record for a person or position or organization that you need for your metadata, you may contact your program data manager to add that person to the Alaska Master Contacts file or create a new contact record and submit the record to your program data manager for review and inclusion in regional and program master contacts files.&#x20;
-{% endhint %}
+:::
 
 ## Importing Contacts from ScienceBase
 
 When you import a ScienceBase record, mdTranslator will automatically load all sbJSON contacts into Main/Citation/Responsible Parties.  This should be checked for errors and inconsistencies introduced during translation.  Delete any duplicate or extraneous contacts and correct any errors. Then add other contacts as needed, continue to edit the metadata to meet requirements, and follow best practices.
-
-<img src="/assets/image (49).png" alt="" data-size="line">

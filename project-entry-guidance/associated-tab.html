@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-10-23">
+<meta name="dcterms.date" content="2026-11-02">
 
 <title>associated-tab – Alaska Region Metadata Guide</title>
 <style>
@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
@@ -96,7 +96,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Contact</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://github.com/hmaier-fws/ak-dm-guide/commits/test-pages/"> <i class="bi bi-file-diff" role="img">
+    <a class="nav-link" href="https://github.com/hmaier-fws/ak-metadata-guide/commits"> <i class="bi bi-file-diff" role="img">
 </i> 
 <span class="menu-text">Recent Changes</span></a>
   </li>  
@@ -149,6 +149,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../other-training-resources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Other Training Resources</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../goals-of-data-management.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Goals of Data Management</span></a>
   </div>
@@ -176,32 +182,20 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../alaska-region-tools/contact-master-list.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Contact Master List</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../alaska-region-tools/data.gov.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data.gov</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../alaska-region-tools/digital-object-identifiers-dois.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Digital Object Identifiers (DOIs)</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="../alaska-region-tools/metadata-standard-checklist.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Metadata Standard Checklist</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../alaska-region-tools/contact-master-list.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Contact Master List</span></a>
+  </div>
+</li>
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
- <span class="menu-text">Mdeditor Basics</span></a>
+            <a href="../alaska-region-tools/mdeditor-basics/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">mdEditor basics</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -257,6 +251,18 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../alaska-region-tools/digital-object-identifiers-dois.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Digital Object Identifiers (DOIs)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../alaska-region-tools/data.gov.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data.gov</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
@@ -474,6 +480,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../glossary-metadata.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Glossary</span></a>
+  </div>
+</li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item sidebar-item-section">
       <span class="sidebar-item-text sidebar-link text-start">
@@ -527,7 +539,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2026-10-23</p>
+      <p class="date">2026-11-02</p>
     </div>
   </div>
   
@@ -548,7 +560,19 @@ ul.task-list li input[type="checkbox"] {
 <section id="create-associations" class="level2">
 <h2 class="anchored" data-anchor-id="create-associations">Create Associations</h2>
 <p>In mdEditor, associations can be created from the Project record or the Product record. The “Association Type” will define the association from your current record to the linked record. Specifying the “Linked Association Type” will create the association from the other direction.</p>
-<p>{% hint style=“info” %} It is more efficient to create associations from the project metadata record after the metadata records are all created. {% endhint %}</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>It is more efficient to create associations from the project metadata record after the metadata records are all created.</p>
+</div>
+</div>
 <section id="step-by-step-creating-an-association-in-a-project-record" class="level3">
 <h3 class="anchored" data-anchor-id="step-by-step-creating-an-association-in-a-project-record">Step-by-Step: Creating an Association in a Project Record</h3>
 <p><strong>Step 1</strong>: Select “<strong>product”</strong> from the <strong>Association Type</strong> drop-down menu. This field will describe the relationship from the associated record to the project record (the associated record is the product of the project record you are editing).</p>
@@ -560,7 +584,19 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Step 4</strong>: Fill out the Linked Association Type with “<strong>parentProject</strong>.”</p>
 <p><img src="..\assets/LinkedAssocCircle.PNG" class="img-fluid"></p>
 <p>Specifying the “Linked Association Type” will create the association in both records and can be created from the Project record or the Product record. The “Association Type” will define the association from your current record to the linked record. An easy rule-of-thumb is the link association type is the type of record that you are currently editing ie parentProject, product, or subProject. </p>
-<p>{% hint style=“info” %} It is recommended you <strong>ALWAYS</strong> specify the Linked Association Type when you create associations. This will ensure the associations are defined from both directions and be present in the metadata regardless of how the metadata is translated or where it is used in the future. {% endhint %}</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>It is recommended you <strong>ALWAYS</strong> specify the Linked Association Type when you create associations. This will ensure the associations are defined from both directions and be present in the metadata regardless of how the metadata is translated or where it is used in the future.</p>
+</div>
+</div>
 
 
 </section>
@@ -658,7 +694,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/USFWS\.github\.io\/ak-metadata-guide\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -1029,7 +1065,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
- Page updated: 2026-10-23
+ Page updated: 2026-11-02
   </li>  
 </ul>
     </div>
